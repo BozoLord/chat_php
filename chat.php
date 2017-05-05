@@ -55,9 +55,6 @@
     </script>
     <body>
         <div class="container">
-            <div class="row">
-                <img class="img-responsive cat-icon" src="img/lama.png" alt="">
-            </div>
             <div class="row" id="block">
                 <p class="title">Chat-<span>Erton</span></p>
                 <div class="col-xs-12 col-lg-12" id="section1">

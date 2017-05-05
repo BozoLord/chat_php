@@ -1,5 +1,5 @@
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, p, blockquoteckquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -26,10 +26,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-  background-image: url("img/banner02.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  line-height: 1;
+  background-color: #939393;
 }
 
 ol, ul {
@@ -51,37 +48,17 @@ table {
   border-spacing: 0;
 }
 
-/****************/
-
-*{
-  font-family: "Roboto-Light";
-}
-
-.cat-icon{
-  width: 25%;
-  position: relative;
-  top: 130px;
-  z-index: 2;
-  margin: auto;
-}
-
 .title{
   font-size: 50px;
   margin-top: -250px;
   margin-bottom: 320px;
   text-align: center;
-  color: #ff00aa;
+  color: #aadd00;
   text-transform: uppercase;
-}
-
-span{
-  font-family: "Roboto-Medium";
 }
 
 h2{
-  border-bottom: 2px solid #ff00aa;
-  font-family: "Roboto-Medium";
-  text-transform: uppercase;
+  border-bottom: 2px solid #aadd00;
   padding-top: 30px;
   margin-bottom: 5px;
 }
@@ -91,25 +68,8 @@ h2{
   margin-top: 12px;
 }
 
-#block{
-  display: block;
-  background-color: #fff;
-  box-shadow: 1px 2px 12px #555;
-  height: 550px;
-
-  padding: 40px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: -200px;
-}
-
 #section1, #section2{
   padding: 45px;
-}
-
-#section1{
-  border-right: 1px solid grey;
-  height: 70%;
 }
 
 #signup{
@@ -131,86 +91,4 @@ h2{
   margin-top: 7px;
   position: absolute;
   right: 5px;
-}
-
-@font-face {
-  font-family: "Roboto-Light";
-  src: url("fonts/Roboto-Light.ttf");
-}
-@font-face {
-  font-family: "Roboto-Medium";
-  src: url("fonts/Roboto-Medium.ttf");
-}
-
-/****************/
-
-@media (min-width: 320px) and (max-width: 767px){
-  body {
-    background-image: url("img/banner01.jpg");
-  }
-  .cat-icon{
-    position: relative;
-    top: -80px;
-    width: 35%;
-  }
-  .title{
-    font-size: 20px;
-    margin-top: -115px;
-    margin-bottom: 120px;
-  }
-  #block{
-    height: 450px;
-    top: -130px;
-  }
-  #section1{
-    margin-top: -15px;
-    border-right: none;
-    height: 300px;
-  }
-  #section2{
-    margin-top: -80px;
-  }
-  #section1, #section2{
-    padding: 0;
-  }
-  #signup .btn-default{
-    left: 60px;
-  }
-  #login .btn-default{
-    left: 60px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1023px){
-  .cat-icon{
-    position: relative;
-    top: -200px;
-    width: 30%;
-  }
-  .title{
-    font-size: 45px;
-    margin-top: -200px;
-    margin-bottom: 200px;
-  }
-  #block{
-    height: 570px;
-    top: -300px;
-  }
-  #section1{
-    margin-top: -5px;
-    border-right: none;
-    height: 300px;
-  }
-  #section2{
-    margin-top: -50px;
-  }
-  #section1, #section2{
-    padding: 20px;
-  }
-  #signup .btn-default{
-    right: 25px;
-  }
-  #login .btn-default{
-    right: 5px;
-  }
 }

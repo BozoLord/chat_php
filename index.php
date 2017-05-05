@@ -89,10 +89,6 @@
 
     <body>
         <div class="container">
-            <div class="row">
-                <img class="img-responsive cat-icon" src="img/lama.png" alt="">
-            </div>
-
             <div class="row" id="block">
                 <p class="title">Chat-<span>Erton</span></p>
 
